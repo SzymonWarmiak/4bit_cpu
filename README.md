@@ -94,10 +94,10 @@ Programs are stored in ROM as 32-bit words written in hexadecimal format.
 
 ### Example: Blink
 
-10006F00
-00006F00
-10006F00
-00006F0F
+10006F00 /n
+00006F00 /n
+10006F00 /n
+00006F0F /n
 
 This program toggles an LED connected to the I/O port.
 
