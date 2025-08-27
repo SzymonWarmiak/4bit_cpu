@@ -1,0 +1,16 @@
+data  r_read  r_write  cf1f2  state  ram_adr  ram_r  ram_write  ram_en  tbd     end  
+0000  0000    0000     000    00     0000     0      0          0       0000    0000
+
+
+Exampple BLINK:
+
+0001 0000 0000  0000 0110 1111  0000 0000   →   10006F00
+
+0000 0000 0000  0000 0110 1111  0000 0000   →   00006F00
+
+0001 0000 0000  0000 0110 1111  0000 0000   →   10006F00
+
+0000 0000 0000  0000 0110 1111  0000 1111   →   00006F0F   
+
+Last 4 bits inform about end, if they are 1111 program ends and starts again 
+
